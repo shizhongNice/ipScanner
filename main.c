@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 
 #define IPPOOL_MAXNUM 1024
 
-    char prefix_ip[32] = "192.168.1.";
+    char prefix_ip[64] = "192.168.1.";
 
     HostInfoList hostlst = (HostInfoList)malloc( IPPOOL_MAXNUM * sizeof(HostInfo) );
 
